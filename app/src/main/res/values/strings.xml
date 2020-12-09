@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Game  Tic Tac Toc</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="player1">ผู้เล่น1 ชนะ</string>
+    <string name="player2">ผู้เล่น2 ชนะ</string>
+    <string name="restart">รีเซ็ต</string>
+</resources>
