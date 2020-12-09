@@ -9,7 +9,7 @@ import com.example.game.model.Board
 import com.example.game.model.Cell
 
 class GameViewModel: ViewModel() {
-    private  var board = Board(4)
+    private lateinit var board:  Board
     private val _win = MutableLiveData<String>()
     val win: LiveData<String>
         get() = _win

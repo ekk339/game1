@@ -4,5 +4,6 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="player1">ผู้เล่น1 ชนะ</string>
     <string name="player2">ผู้เล่น2 ชนะ</string>
-    <string name="restart">รีเซ็ต</string>
+    <string name="restart">เริ่มใหม่</string>
+    <string name="always">เสมอ</string>
 </resources>

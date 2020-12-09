@@ -17,13 +17,13 @@
             android:layout_height="wrap_content"
             android:layout_above="@id/layout_board"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="32dp"
+            android:layout_marginBottom="24dp"
             android:textAllCaps="false"
             android:textAppearance="@style/TextAppearance.AppCompat.Headline"
             android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@+id/button_restart"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintStart_toStartOf="parent" />
 
         <GridLayout
             android:id="@+id/layout_board"
@@ -37,36 +37,40 @@
             android:alignmentMode="alignBounds"
             android:padding="16dp"
             android:useDefaultMargins="true"
-            app:layout_constraintBottom_toTopOf="@+id/button_restart"
+            app:layout_constraintBottom_toTopOf="@+id/text_view_result"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
         <Button
             android:id="@+id/button_restart"
+            style="@style/Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="32dp"
+            android:layout_marginBottom="56dp"
             android:text="@string/restart"
             android:textAllCaps="false"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
             android:id="@+id/textView2"
+            style="@style/TextBody"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="24dp"
             android:text="ผู้เล่น1  O"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text_view_result" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/textView3"
+            style="@style/TextBody"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"

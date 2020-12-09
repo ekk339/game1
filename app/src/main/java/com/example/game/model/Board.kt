@@ -27,6 +27,7 @@ class Board(
     fun resetValue(){
         board = Array(size) { arrayOfNulls(size) }
         count = 0
+        stop = false
     }
 
     fun getWin(): String? {

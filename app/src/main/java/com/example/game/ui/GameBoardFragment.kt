@@ -21,7 +21,7 @@ import kotlinx.android.synthetic.main.fragment_board.*
 
 class GameBoardFragment : Fragment() {
     private lateinit var gameViewModel: GameViewModel
-    private var n = 3
+    private var n = 0
     private var boardCells = Array(n) { arrayOfNulls<TextView>(n) }
     var isPlayer = true
 
@@ -31,15 +31,17 @@ class GameBoardFragment : Fragment() {
     }
 
     private fun init(savedInstanceState: Bundle?) {
+        gameViewModel = ViewModelProvider(this).get(GameViewModel::class.java)
         if(savedInstanceState != null){
             n = savedInstanceState.getInt(SIZE)
+            gameViewModel.resetValue()
         }else{
             arguments?.let {
               n  = it.getInt(SIZE)
             }
         }
-        gameViewModel = ViewModelProvider(this).get(GameViewModel::class.java)
-        boardCells = Array(n) { arrayOfNulls<TextView>(n) }
+
+        boardCells = Array(n) { arrayOfNulls(n) }
         gameViewModel.setBoard(n)
     }
 
@@ -52,13 +54,17 @@ class GameBoardFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        loadBoard()
-        winObserve()
+        initView()
 
         button_restart.setOnClickListener {
             gameViewModel.resetValue()
             boardToUi()
         }
+    }
+
+    private fun initView(){
+        loadBoard()
+        winObserve()
     }
 
     private fun winObserve() {
@@ -71,7 +77,7 @@ class GameBoardFragment : Fragment() {
                     text_view_result.text = getString(R.string.player2)
                 }
                 Board.DRAW -> {
-                    text_view_result.text = "เสมอ"
+                    text_view_result.text = getString(R.string.always)
                 }
                 else -> text_view_result.text = ""
             }

@@ -17,4 +17,10 @@
     <style name="TextHeader" parent="Theme.AppCompat">
         <item name="android:textSize">24dp</item>
     </style>
+    <style name="TextBody" parent="Theme.AppCompat">
+        <item name="android:textSize">23dp</item>
+    </style>
+    <style name="Button" parent="Theme.AppCompat">
+        <item name="android:textSize">24dp</item>
+    </style>
 </resources>

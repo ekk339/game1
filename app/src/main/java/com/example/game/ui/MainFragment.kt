@@ -32,12 +32,13 @@ class MainFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         start.setOnClickListener {
-           activity?.apply {
-               replaceAddFragment(R.id.containerFragment, GameBoardFragment.TAG_GAME_FRAGMENT){
-               GameBoardFragment.newInstant(numberTable.text.toString().toInt())
+          if(numberTable.text.toString().isNotEmpty()){
+              activity?.apply {
+                  replaceAddFragment(R.id.containerFragment, GameBoardFragment.TAG_GAME_FRAGMENT){
+                      GameBoardFragment.newInstant(numberTable.text.toString().toInt())
 
-           } }
-
+                  } }
+          }
         }
     }
 

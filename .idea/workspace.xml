@@ -6,7 +6,26 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2324df1-019c-449b-97ff-6c8d40cadd1b" name="Default Changelist" comment="" />
+    <list default="true" id="d2324df1-019c-449b-97ff-6c8d40cadd1b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/Game__Test1.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/Game__Test1.app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/game/model/Board.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/game/model/Board.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/game/ui/GameBoardFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/game/ui/GameBoardFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/game/ui/GameViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/game/ui/GameViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/game/ui/MainFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/game/ui/MainFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_board.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_board.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,9 +62,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android-custom-view/Users/first/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.2.0/13e8ff89631c2e101eb6bddd12c2fb4bbd74b15d/appcompat-1.2.0-sources.jar!/androidx/appcompat/widget/AppCompatEditText.java_SELECTED" value="AppCompatEditText" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="multi-representation-preview/Users/first/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.2.0/13e8ff89631c2e101eb6bddd12c2fb4bbd74b15d/appcompat-1.2.0-sources.jar!/androidx/appcompat/widget/AppCompatEditText.java_selected" value="Custom views" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -127,28 +148,33 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2702" y="336" key="AndroidCreateXmlResourceDialog" timestamp="1607488607398">
-      <screen x="1920" y="23" width="1920" height="1057" />
+    <state x="3089" y="311" key="AndroidCreateXmlResourceDialog" timestamp="1607540239942">
+      <screen x="1920" y="3" width="1920" height="1040" />
     </state>
+    <state x="3089" y="311" key="AndroidCreateXmlResourceDialog/0.0.1536.824/1920.3.1920.1040@1920.3.1920.1040" timestamp="1607540239942" />
     <state x="2702" y="336" key="AndroidCreateXmlResourceDialog/0.23.1920.1057/1920.23.1920.1057@1920.23.1920.1057" timestamp="1607488607398" />
-    <state width="1876" height="344" key="GridCell.Tab.0.bottom" timestamp="1607513320688">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state width="1877" height="137" key="GridCell.Tab.0.bottom" timestamp="1607540075073">
+      <screen x="1920" y="3" width="1920" height="1040" />
     </state>
+    <state width="1877" height="137" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.3.1920.1040@1920.3.1920.1040" timestamp="1607540075073" />
     <state width="1876" height="344" key="GridCell.Tab.0.bottom/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1607513320688" />
     <state width="1878" height="217" key="GridCell.Tab.0.bottom/0.23.1920.1057/1920.23.1920.1057@1920.23.1920.1057" timestamp="1607486165143" />
-    <state width="1876" height="344" key="GridCell.Tab.0.center" timestamp="1607513320688">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state width="1877" height="137" key="GridCell.Tab.0.center" timestamp="1607540075072">
+      <screen x="1920" y="3" width="1920" height="1040" />
     </state>
+    <state width="1877" height="137" key="GridCell.Tab.0.center/0.0.1536.824/1920.3.1920.1040@1920.3.1920.1040" timestamp="1607540075072" />
     <state width="1876" height="344" key="GridCell.Tab.0.center/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1607513320688" />
     <state width="1878" height="217" key="GridCell.Tab.0.center/0.23.1920.1057/1920.23.1920.1057@1920.23.1920.1057" timestamp="1607486165142" />
-    <state width="1876" height="344" key="GridCell.Tab.0.left" timestamp="1607513320688">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state width="1877" height="137" key="GridCell.Tab.0.left" timestamp="1607540075072">
+      <screen x="1920" y="3" width="1920" height="1040" />
     </state>
+    <state width="1877" height="137" key="GridCell.Tab.0.left/0.0.1536.824/1920.3.1920.1040@1920.3.1920.1040" timestamp="1607540075072" />
     <state width="1876" height="344" key="GridCell.Tab.0.left/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1607513320688" />
     <state width="1878" height="217" key="GridCell.Tab.0.left/0.23.1920.1057/1920.23.1920.1057@1920.23.1920.1057" timestamp="1607486165142" />
-    <state width="1876" height="344" key="GridCell.Tab.0.right" timestamp="1607513320688">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state width="1877" height="137" key="GridCell.Tab.0.right" timestamp="1607540075072">
+      <screen x="1920" y="3" width="1920" height="1040" />
     </state>
+    <state width="1877" height="137" key="GridCell.Tab.0.right/0.0.1536.824/1920.3.1920.1040@1920.3.1920.1040" timestamp="1607540075072" />
     <state width="1876" height="344" key="GridCell.Tab.0.right/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1607513320688" />
     <state width="1878" height="217" key="GridCell.Tab.0.right/0.23.1920.1057/1920.23.1920.1057@1920.23.1920.1057" timestamp="1607486165142" />
     <state x="460" y="190" key="SettingsEditor" timestamp="1607512809733">

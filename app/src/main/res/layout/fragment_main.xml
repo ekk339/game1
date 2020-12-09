@@ -8,32 +8,36 @@
 
     <TextView
         android:id="@+id/textView"
+        style="@style/TextHeader"
         android:layout_width="wrap_content"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
         android:text="ขนาดตาราง"
-        style="@style/TextHeader"
         app:layout_constraintBottom_toTopOf="@+id/numberTable"
         app:layout_constraintEnd_toStartOf="@+id/guidelineEnd"
-        app:layout_constraintStart_toStartOf="@+id/guidelineStart" />
+        app:layout_constraintStart_toStartOf="@+id/guidelineStart"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.763" />
 
     <androidx.appcompat.widget.AppCompatEditText
         android:id="@+id/numberTable"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:hint="กรอกจำนวนตาราง"
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guidelineEnd"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guidelineStart"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintVertical_bias="0.349" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="เริ่มเกม"
+        style="@style/Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guidelineEnd"
         app:layout_constraintStart_toStartOf="@+id/guidelineStart"
